@@ -17,11 +17,23 @@ footer {
 header {
   position: sticky;
   top: 0;
-  padding: 30px;
+  padding: 35px;
+  text-align: center;
+  background-image: url("/assets/img/world.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
 }
 
 h1 {
   margin: 0;
+  padding: 0 5px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
 }
 
 main {
@@ -30,6 +42,10 @@ main {
 article {
   border: 3px solid dimgray;
   margin: 30px 10%;
+}
+
+.first-card {
+  margin-top: 11px;
 }
 footer {
   position: sticky;
