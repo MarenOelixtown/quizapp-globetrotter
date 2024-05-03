@@ -31,7 +31,13 @@ footer {
   position: sticky;
   bottom: 0;
 }
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
 
 .icon {
-  height: 30px;
+  height: 45px;
 }
