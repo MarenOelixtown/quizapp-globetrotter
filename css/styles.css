@@ -13,16 +13,20 @@ header,
 footer {
   background-color: dimgray;
 }
+
 header {
   position: sticky;
   top: 0;
   padding: 30px;
 }
+
 h1 {
   margin: 0;
 }
+
 main {
 }
+
 article {
   border: 3px solid dimgray;
   margin: 30px 10%;
@@ -38,6 +42,13 @@ footer ul {
   padding: 15px 0;
 }
 
-.icon {
+footer .icon {
   height: 45px;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 1px;
+}
+article .icon {
+  height: 45px;
+  stroke: dimgray;
+  stroke-width: 1.5px;
 }
