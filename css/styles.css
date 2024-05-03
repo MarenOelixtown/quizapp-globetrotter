@@ -13,25 +13,59 @@ header,
 footer {
   background-color: dimgray;
 }
+
 header {
   position: sticky;
   top: 0;
-  padding: 30px;
+  padding: 35px;
+  text-align: center;
+  border-bottom: 2px solid dimgray;
+  background-image: url("/assets/img/world.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
 }
+
 h1 {
   margin: 0;
+  padding: 0 5px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
 }
+
 main {
 }
+
 article {
   border: 3px solid dimgray;
   margin: 30px 10%;
+}
+
+.first-card {
+  margin-top: 11px;
 }
 footer {
   position: sticky;
   bottom: 0;
 }
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
 
-.icon {
-  height: 30px;
+footer .icon {
+  height: 45px;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 1px;
+}
+article .icon {
+  height: 45px;
+  stroke: dimgray;
+  stroke-width: 1.5px;
 }
