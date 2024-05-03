@@ -1,3 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  height: 95vh;
+  margin: 0;
+}
+
+header,
+footer {
+  background-color: dimgray;
+}
+header {
+  position: sticky;
+  top: 0;
+  padding: 30px;
+}
+h1 {
+  margin: 0;
+}
+main {
+}
+article {
+  border: 3px solid dimgray;
+  margin: 30px 10%;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+}
+
 .icon {
   height: 30px;
 }
