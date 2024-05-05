@@ -10,7 +10,7 @@ body {
 }
 
 header,
-footer {
+.navbar {
   background-color: dimgray;
 }
 
@@ -41,27 +41,41 @@ h1 {
 main {
 }
 
-article {
+.question-card {
   border: 3px solid dimgray;
   margin: 30px 10%;
   position: relative;
+  text-align: center;
 }
 
 .first-card {
   margin-top: 11px;
 }
-footer {
+.categories li {
+  background-color: rgb(204, 204, 204);
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.categories {
+  list-style: none;
+  padding-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar {
   position: sticky;
   bottom: 0;
 }
-footer ul {
+.navbar ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
   padding: 15px 0;
 }
 
-footer .icon {
+.navbar .icon {
   height: 45px;
   stroke: rgb(255, 255, 255);
   stroke-width: 1px;
