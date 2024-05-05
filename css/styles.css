@@ -104,6 +104,10 @@ h3 {
   stroke: rgb(255, 255, 255);
   stroke-width: 1px;
 }
+.navbar .home {
+  fill: rgb(1, 255, 43);
+  stroke: rgb(1, 255, 43);
+}
 .bookmark-card-icon {
   height: 45px;
   stroke: dimgray;
