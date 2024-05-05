@@ -51,6 +51,16 @@ main {
 .first-card {
   margin-top: 11px;
 }
+
+.answer-button {
+  background-color: rgba(0, 0, 0, 0.034);
+  width: 40%;
+  padding: 10px;
+  font-size: 1em;
+  font-style: oblique;
+  font-weight: bold;
+}
+
 .categories li {
   background-color: rgb(204, 204, 204);
   margin-right: 5px;
