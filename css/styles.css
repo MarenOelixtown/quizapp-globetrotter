@@ -103,7 +103,11 @@ h3 {
   height: 45px;
   stroke: dimgray;
   fill: white;
+}
+.bookmark-button {
   position: absolute;
   top: -20px;
   right: 0;
+  background: none;
+  border: none;
 }
