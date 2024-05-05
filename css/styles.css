@@ -43,6 +43,7 @@ main {
 article {
   border: 3px solid dimgray;
   margin: 30px 10%;
+  position: relative;
 }
 
 .first-card {
@@ -64,8 +65,11 @@ footer .icon {
   stroke: rgb(255, 255, 255);
   stroke-width: 1px;
 }
-article .icon {
+.bookmark-card-icon {
   height: 45px;
   stroke: dimgray;
-  stroke-width: 1.5px;
+  fill: white;
+  position: absolute;
+  top: -20px;
+  right: 0;
 }
