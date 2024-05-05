@@ -38,15 +38,22 @@ h1 {
   position: relative;
 }
 
+h2,
 h3 {
+  display: inline-block;
   font-size: 1.5em;
+  width: 80%;
 }
 
 .question-card {
   border: 3px solid dimgray;
   margin: 30px 10%;
+  padding-top: 2%;
   position: relative;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .first-card {
@@ -73,6 +80,7 @@ h3 {
   padding-left: 5%;
   display: flex;
   justify-content: flex-start;
+  align-self: flex-start;
 }
 
 .navbar {
