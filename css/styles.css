@@ -10,12 +10,13 @@ body {
 }
 
 header,
-footer {
+.navbar {
   background-color: dimgray;
 }
 
 header {
   position: sticky;
+  z-index: 100;
   top: 0;
   padding: 35px;
   text-align: center;
@@ -37,35 +38,88 @@ h1 {
   position: relative;
 }
 
-main {
+h2 {
+  display: inline-block;
+  font-size: 1.5em;
+  width: 80%;
+}
+h3 {
+  font-size: 1.5em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 5px;
 }
 
-article {
+.question-card {
   border: 3px solid dimgray;
   margin: 30px 10%;
+  padding-top: 2%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .first-card {
   margin-top: 11px;
 }
-footer {
+
+.answer-button {
+  background-color: rgba(0, 0, 0, 0.034);
+  width: 40%;
+  padding: 10px;
+  font-size: 1em;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.categories li {
+  background-color: rgb(204, 204, 204);
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.categories {
+  list-style: none;
+  padding-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.navbar {
   position: sticky;
   bottom: 0;
 }
-footer ul {
+.navbar ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
   padding: 15px 0;
 }
 
-footer .icon {
+.navbar .icon {
   height: 45px;
   stroke: rgb(255, 255, 255);
   stroke-width: 1px;
 }
-article .icon {
+.navbar .home {
+  fill: rgb(1, 255, 43);
+  stroke: rgb(1, 255, 43);
+}
+.bookmark-card-icon {
   height: 45px;
   stroke: dimgray;
-  stroke-width: 1.5px;
+  fill: white;
+}
+.bookmark-button {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  background: none;
+  border: none;
+}
+.marked .bookmark-card-icon {
+  fill: rgb(255, 153, 1);
 }
