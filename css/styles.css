@@ -132,3 +132,6 @@ h3 {
 .marked .bookmark-card-icon {
   fill: rgb(255, 153, 1);
 }
+/*.not-visible {
+    visibility: hidden;
+  }*/
