@@ -8,7 +8,7 @@
 }
 
 .bookmark-card-icon {
-  height: 45px;
+  height: var(--bm-size);
   stroke: var(--border-color);
   fill: white;
 }
