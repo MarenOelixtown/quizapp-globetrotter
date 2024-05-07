@@ -3,3 +3,9 @@
 @import "/components/card.css";
 @import "/components/button.css";
 @import "/components/navigation.css";
+
+:root {
+  --head-nav-color: #696969;
+  --border-color: #696969;
+  --category-bg: #cccccc;
+}

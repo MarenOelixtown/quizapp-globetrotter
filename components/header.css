@@ -4,7 +4,7 @@ header {
   top: 0;
   padding: 35px;
   text-align: center;
-  border-bottom: 2px solid dimgray;
+  border-bottom: 2px solid var(--head-nav-color);
   background-image: url("/assets/img/world.svg");
   background-repeat: no-repeat;
   background-position: center;

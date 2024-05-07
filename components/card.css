@@ -6,13 +6,13 @@ h2 {
 
 h3 {
   font-size: 1.5em;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   color: white;
   padding: 5px;
 }
 
 .question-card {
-  border: 3px solid dimgray;
+  border: 3px solid var(--border-color);
   margin: 30px 10%;
   padding-top: 2%;
   position: relative;
@@ -23,7 +23,7 @@ h3 {
 }
 
 .categories li {
-  background-color: rgb(204, 204, 204);
+  background-color: var(--category-bg);
   margin-right: 5px;
   padding: 3px;
 }

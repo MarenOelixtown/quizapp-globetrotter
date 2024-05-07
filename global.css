@@ -12,5 +12,5 @@ body {
 
 header,
 .navbar {
-  background-color: dimgray;
+  background-color: var(--head-nav-color);
 }
