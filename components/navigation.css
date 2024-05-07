@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.navbar .icon {
+  height: var(--bm-size);
+  stroke: rgb(255, 255, 255);
+  stroke-width: 1px;
+}
+
+.navbar .home {
+  fill: rgb(1, 255, 43);
+  stroke: rgb(1, 255, 43);
+}
+
+.navbar .bookmark {
+  fill: var(--marked-bm-color);
+  stroke: var(--marked-bm-color);
+}
+
+.navbar .profile {
+  fill: rgb(1, 162, 255);
+  stroke: rgb(1, 129, 202);
+}

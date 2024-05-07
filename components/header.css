@@ -1,0 +1,23 @@
+header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  padding: 35px;
+  text-align: center;
+  border-bottom: 2px solid var(--head-nav-color);
+  background-image: url("/assets/img/world.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 5px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+}

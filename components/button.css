@@ -1,0 +1,30 @@
+.answer-button {
+  background-color: rgba(0, 0, 0, 0.034);
+  width: 40%;
+  padding: 10px;
+  font-size: 1em;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.bookmark-card-icon {
+  height: var(--bm-size);
+  stroke: var(--border-color);
+  fill: white;
+}
+
+.bookmark-button {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  background: none;
+  border: none;
+}
+
+.marked .bookmark-card-icon {
+  fill: var(--marked-bm-color);
+}
+
+/*.not-visible {
+      visibility: hidden;
+    }*/
