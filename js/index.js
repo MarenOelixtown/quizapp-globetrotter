@@ -1,5 +1,5 @@
-const showButton = document.querySelector('[data-js="show"]');
-const answer = document.querySelector('[data-js="visible"]');
+const showButton = document.querySelectorAll('[data-js="show"]');
+const answer = document.querySelectorAll('[data-js="visible"]');
 
 showButton.addEventListener("click", () => {
   if (answer.hasAttribute("hidden")) {
