@@ -20,11 +20,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-    gap: var(--gap);
+    row-gap: var(--gap);
+    padding-right: calc(2 * var(--gap));
+    padding-left: calc(2 * var(--gap));
   }
   .question-card {
     margin: auto;
-    width: 40%;
+    width: 45%;
   }
 }
 
