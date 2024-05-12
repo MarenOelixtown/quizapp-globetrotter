@@ -10,4 +10,33 @@
   --category-bg: #cccccc;
   --marked-bm-color: #ff9901;
   --bm-size: 45px;
+  --gap: 2rem;
+}
+
+@media screen and (min-width: 900px) {
+  .card-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap);
+    margin-top: var(--gap);
+  }
+  .question-card {
+    margin: auto;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 60vw;
+  }
+
+  .navbar {
+    width: 60vw;
+    margin: auto;
+  }
 }
