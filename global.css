@@ -5,9 +5,9 @@
 }
 
 body {
-  height: 95vh;
   margin: 0;
   position: relative;
+  background-color: var(--bg-light-grey);
 }
 
 header,

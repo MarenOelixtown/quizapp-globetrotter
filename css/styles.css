@@ -7,7 +7,8 @@
 :root {
   --head-nav-color: #696969;
   --border-color: #696969;
-  --category-bg: #cccccc;
+  --bg-light-grey: #cccccc;
+  --bg-white: #ffffff;
   --marked-bm-color: #ff9901;
   --bm-size: 45px;
   --gap: 2rem;
@@ -18,8 +19,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
     gap: var(--gap);
-    margin-top: var(--gap);
   }
   .question-card {
     margin: auto;
