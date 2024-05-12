@@ -1,3 +1,10 @@
+.card-area {
+  background-color: var(--bg-white);
+  padding-top: var(--gap);
+  padding-bottom: calc(3 * var(--gap));
+  min-height: 100vh;
+}
+
 h2 {
   display: inline-block;
   font-size: 1.5em;
@@ -23,7 +30,7 @@ h3 {
 }
 
 .categories li {
-  background-color: var(--category-bg);
+  background-color: var(--bg-light-grey);
   margin-right: 5px;
   padding: 3px;
 }
@@ -32,6 +39,8 @@ h3 {
   list-style: none;
   padding-left: 5%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-self: flex-start;
+  gap: 0.5rem;
 }
