@@ -34,3 +34,7 @@
   fill: rgb(1, 162, 255);
   stroke: rgb(1, 129, 202);
 }
+.navbar .question-form {
+  fill: rgb(255, 1, 1);
+  stroke: rgb(255, 1, 1);
+}
