@@ -5,41 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Globetrotter - Quiz</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="/js/index.js" defer></script>
+    <script src="/js/form.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Globetrotter - Quiz</h1>
     </header>
     <main class="card-area">
-      <article class="question-card">
-        <button class="bookmark-button" type="button" data-js="toggle-bookmark">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="bookmark-card-icon"
+      <h2 id="title">Please add more quiz-content!</h2>
+      <form aria-labelledby="title" action="">
+        <fieldset>
+          <legend>New Question-Card</legend>
+          <label for="question">Your Question:</label>
+          <textarea
+            name="question"
+            id="question"
+            maxlength="150"
+            data-js="question-input"
+            placeholder="Enter here your question..."
+          ></textarea>
+          <small
+            >(<span data-js="questionAmountLeft"></span> charecters left)</small
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"
-            />
-          </svg>
-        </button>
-        <h2>What is the capital of France called?</h2>
-        <button class="answer-button" type="button" data-js="show">
-          Show Answer
-        </button>
-        <h3 data-js="visible" hidden>Paris</h3>
-        <ul class="categories">
-          <li>#Capital</li>
-          <li>#Europe</li>
-          <li>#France</li>
-        </ul>
-      </article>
+          <label for="answer">Your Question:</label>
+          <textarea
+            name="answer"
+            id="answer"
+            maxlength="150"
+            data-js="answer-input"
+            placeholder="Enter here the answer..."
+          ></textarea>
+          <small
+            >(<span data-js="answerAmountLeft"></span> charecters left)</small
+          >
+          <label for="tag">#tag</label>
+          <input type="text" id="tag" />
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
     </main>
     <footer class="navbar">
       <ul>
@@ -62,14 +66,14 @@
           </a>
         </li>
         <li>
-          <a href="#" title="Watchlist"
+          <a href="bookmarks.html" title="Watchlist"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="icon bookmark"
+              class="icon"
             >
               <path
                 stroke-linecap="round"
@@ -80,14 +84,14 @@
           </a>
         </li>
         <li>
-          <a href="form.html" title="Adding new question"
+          <a href="#" title="Adding new question"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="icon"
+              class="icon question-form"
             >
               <path
                 stroke-linecap="round"
