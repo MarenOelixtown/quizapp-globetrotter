@@ -10,7 +10,32 @@
     <header>
       <h1>Globetrotter - Quiz</h1>
     </header>
-    <main class="card-area"></main>
+    <main class="card-area">
+      <h2 id="title">Please add more quiz-content!</h2>
+      <form aria-labelledby="title" action="">
+        <fieldset>
+          <legend>New Question-Card</legend>
+          <label for="question">Your Question:</label>
+          <textarea
+            name="question"
+            id="question"
+            maxlength="150"
+            placeholder="Enter here your question..."
+          ></textarea>
+          <label for="answer">Your Question:</label>
+          <textarea
+            name="answer"
+            id="answer"
+            maxlength="150"
+            placeholder="Enter here the answer..."
+          ></textarea>
+          <label for="tag">#tag</label>
+          <input type="text" id="tag" />
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
     <footer class="navbar">
       <ul>
         <li>
