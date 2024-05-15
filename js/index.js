@@ -13,6 +13,7 @@ showButton.addEventListener("click", () => {
 
 const showButtons = document.querySelectorAll('[data-js="show"]');
 const answers = document.querySelectorAll('[data-js="visible"]');
+const toggleBookmark = document.querySelector('[data-js="toggle-bookmark"]');
 
 showButtons.forEach((showButton, index) => {
   const answer = answers[index]; // Das entsprechende Antwort-Element für jeden Button
@@ -26,4 +27,8 @@ showButtons.forEach((showButton, index) => {
       showButton.textContent = "Show Answer";
     }
   });
+});
+
+toggleBookmark.addEventListener("click", () => {
+  toggleBookmark.classList.toggle("marked");
 });
