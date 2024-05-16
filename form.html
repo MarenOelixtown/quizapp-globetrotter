@@ -11,9 +11,9 @@
     <header>
       <h1>Globetrotter - Quiz</h1>
     </header>
-    <main class="card-area">
-      <h2 id="title">Please add more quiz-content!</h2>
-      <form aria-labelledby="title" action="">
+    <main class="card-area" data-js="card-container">
+      <h2 class="form-headline" id="title">Please add more quiz-content!</h2>
+      <form aria-labelledby="title" data-js="card-form">
         <fieldset>
           <legend>New Question-Card</legend>
           <label for="question">Your Question:</label>
@@ -23,26 +23,28 @@
             maxlength="150"
             data-js="question-input"
             placeholder="Enter here your question..."
+            required
           ></textarea>
           <small
             >(<span data-js="questionAmountLeft"></span> charecters left)</small
           >
-          <label for="answer">Your Question:</label>
+          <label for="answer">Your Answer:</label>
           <textarea
             name="answer"
             id="answer"
             maxlength="150"
             data-js="answer-input"
             placeholder="Enter here the answer..."
+            required
           ></textarea>
           <small
             >(<span data-js="answerAmountLeft"></span> charecters left)</small
           >
           <label for="tag">#tag</label>
-          <input type="text" id="tag" />
+          <input type="text" name="tag" id="tag" required />
         </fieldset>
 
-        <button type="submit">Submit</button>
+        <button class="answer-button" type="submit">Submit</button>
       </form>
     </main>
     <footer class="navbar">
