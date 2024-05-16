@@ -1,3 +1,9 @@
+const form = document.querySelector('[data-js="form"]');
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+});
+
 const formQuestionInput = document.querySelector('[data-js="question-input"]');
 const formAnswerInput = document.querySelector('[data-js="answer-input"]');
 const maxLengthQuestion = formQuestionInput.getAttribute("maxlength");
