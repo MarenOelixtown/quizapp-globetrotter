@@ -4,6 +4,9 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
   const formElements = event.target.elements;
   console.log(formElements.question);
+  const formData = new FormData(event.target);
+  const data = Object.fromEntries(formData);
+  console.log(data);
 });
 
 const formQuestionInput = document.querySelector('[data-js="question-input"]');

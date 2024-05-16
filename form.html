@@ -23,6 +23,7 @@
             maxlength="150"
             data-js="question-input"
             placeholder="Enter here your question..."
+            required
           ></textarea>
           <small
             >(<span data-js="questionAmountLeft"></span> charecters left)</small
@@ -34,12 +35,13 @@
             maxlength="150"
             data-js="answer-input"
             placeholder="Enter here the answer..."
+            required
           ></textarea>
           <small
             >(<span data-js="answerAmountLeft"></span> charecters left)</small
           >
           <label for="tag">#tag</label>
-          <input type="text" id="tag" />
+          <input type="text" id="tag" required />
         </fieldset>
 
         <button type="submit">Submit</button>
