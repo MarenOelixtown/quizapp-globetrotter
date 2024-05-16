@@ -5,13 +5,13 @@
   min-height: 100vh;
 }
 
-h2 {
+.text-question {
   display: inline-block;
   font-size: 1.5em;
   width: 80%;
 }
 
-h3 {
+.text-answer {
   font-size: 1.5em;
   background-color: #000000;
   color: white;

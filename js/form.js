@@ -29,11 +29,11 @@ form.addEventListener("submit", (event) => {
             </svg>
           </button>
 
-          <h2>${data.question}</h2>
+          <h2 class="text-question">${data.question}</h2>
           <button class="answer-button" type="button" data-js="show">
             Show Answer
           </button>
-          <h3 data-js="visible" hidden>${data.answer}</h3>
+          <h3 class="text-answer" data-js="visible" hidden>${data.answer}</h3>
           <ul class="categories">
             <li>#<span>${data.tag}</span></li>            
           </ul>`;
