@@ -43,7 +43,7 @@ form.addEventListener("submit", (event) => {
   formElements.question.focus();
 });
 
-const formQuestionInput = document.querySelector('[data-js="question-input"]');
+/* const formQuestionInput = document.querySelector('[data-js="question-input"]');
 const formAnswerInput = document.querySelector('[data-js="answer-input"]');
 const maxLengthQuestion = formQuestionInput.getAttribute("maxlength");
 const maxLengthAnswer = formAnswerInput.getAttribute("maxlength");
@@ -68,4 +68,23 @@ updateAmountLeftAnswer(maxLengthAnswer);
 
 formAnswerInput.addEventListener("input", () => {
   updateAmountLeftAnswer(maxLengthAnswer - formAnswerInput.value.length);
+}); */
+
+const textInputAll = document.querySelectorAll('[data-js*="input"]');
+console.log(textInputAll);
+const amountLeftAll = document.querySelectorAll('[data-js*="AmountLeft"]');
+console.log(amountLeftAll);
+
+textInputAll.forEach((textInput, index) => {
+  const maxLength = textInput.getAttribute("maxlength");
+  const amountLeft = amountLeftAll[index];
+
+  const updateAmountLeft = (value) => {
+    amountLeft.textContent = value;
+  };
+  updateAmountLeft(maxLength);
+
+  textInput.addEventListener("input", () => {
+    updateAmountLeft(maxLength - textInput.value.length);
+  });
 });
