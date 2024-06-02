@@ -4,6 +4,7 @@
 @import "/components/button.css";
 @import "/components/navigation.css";
 @import "/components/form.css";
+@import "/components/profile.css";
 
 :root {
   --head-nav-color: #696969;
