@@ -1,0 +1,26 @@
+.profile-page {
+  background-color: var(--bg-white);
+  min-height: 100vh;
+  padding: calc(3 * var(--gap));
+}
+
+.profile-header {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap);
+}
+.profile-img__border {
+  border-radius: 42% 58% 28% 72% / 32% 30% 70% 68%;
+}
+.counter-list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: var(--gap);
+}
+
+.counter-list__item {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
